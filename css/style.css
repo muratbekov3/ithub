@@ -1,0 +1,239 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+header{
+    background: black;
+    height: 70px;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header > img{
+    width: 80px;
+    height: 45px;
+    margin-top:15px;
+    margin-left: 150px;
+}
+.nav{
+    margin-left: 400px;
+    margin-top: -40px;
+    
+}
+li{
+    display: inline;
+    margin-right: 60px;
+    font-size: 17px;
+}
+li a{
+    color: white;
+    font-family: Montserrat;  
+    text-decoration: none;
+} 
+.nav a:hover{
+    
+    text-decoration: none;
+    border-bottom: 2px solid #99C911;   
+}
+.language{
+    margin-top: -20px;
+    margin-left: 1100px;
+}
+.language a:hover{
+    border-bottom: 1px solid #99C911;
+}
+
+.language .ru{
+    color: #99C911;
+    text-decoration: none;
+}
+.language .slesh{
+    color: white;
+    text-decoration: none;
+}
+.language .kg {
+    color: white;
+    text-decoration: none;
+}
+.registr{
+    margin-left: 1220px;
+    margin-top: -19px;
+}
+.registr a{
+    color:  #EFEFEF;
+    text-decoration: none;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+}
+.registr a:hover{
+    border-bottom: 1px solid #99C911;
+}
+.container{
+    background-image: url(../img/Group\ 51.png);
+    width: 100%;
+    height: 1430px;
+}
+.container img{
+   margin-left: 400px;
+   margin-top: 70px;
+}
+.container h1{
+    font-family: Montserrat;
+    margin-top:-63px ;
+    margin-left: 550px;
+}
+.container h2{
+    font-family: Montserrat;
+    margin-left: 400px;
+    font-size: 49px;
+    letter-spacing: 0.175em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.container p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15.6694px;
+margin-top: 30px;
+margin-left: 500px;
+}
+.card{
+    width: 720px;
+height: 416px;
+background-color: #F65D4D;
+margin-left: 380px;
+margin-top: 40px;
+}
+.flex{
+    display: flex;
+    margin-left: 100px;
+}
+.java{
+    background: #FBFBFB;
+    width: 300px;
+height: 510.74px;
+margin-right: 50px;
+margin-top: 100px;
+}
+.java img{
+    width: 114.8px;
+    height: 127.77px;
+    position: absolute;
+    left: -210px;
+    top: 850px;
+}
+.java2 img{
+    left: 150px;
+}
+.java h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.145em;
+color: #8CC84B;
+width: 270px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.java p{
+    width: 262.5px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 155.9%;
+text-align: justify;
+margin-left: 18px;
+color: #000000;
+margin-top: 10px;
+}
+.java h2{
+    width: 250px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+margin-left: 20px;
+margin-top: 20px;
+}
+.java h3{
+    width: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.java h4{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+margin-top: 160px;
+margin-left: 85px;
+}
+footer{
+    background-color: black;
+    height: 164px;
+    width: 100%;
+}
+.emails{
+    margin-right: 130px;
+}
+.emails p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 188.4%;
+color: white;
+}
+.emails h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 170.4%;
+color: white;
+}
+.contact{
+    display: flex;
+    margin-left: 230px;
+    padding-top: 20px;
+   
+}
+.instagram{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.instagram img{
+    margin-right: 40px;
+}
+.java button{
+    background:none;
+    border: 1px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 130px;
+   height: 25.44px;
+   margin-top: 30px;
+   margin-left: 10px;
+}
+.java button:hover{
+    background-color: #99C911;
+}
+.java a:hover{
+    text-decoration: none;
+}

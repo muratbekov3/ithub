@@ -1,0 +1,1319 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:  #EFEFEF;;
+    height: 55px;
+}
+.nav{
+    margin-left: 750px;
+    position: absolute;
+    top: 8px;
+}
+li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+}
+li a{
+    color: black;
+    font-family: Montserrat;  
+} 
+.nav a:hover{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;   
+}
+.header{
+  background-color: #000000;
+  width: 600px;
+  height: 55px;
+}
+.header img{
+    margin-left: 300px;
+    margin-top: -75px;
+}
+/* nado sdelat ru kg */
+.content{
+    display: flex;
+}
+.left {
+    background-image: url(../img/Group\ 51.png);
+    width: 600px;
+    height: 3800px;
+}
+.line{
+    position: absolute;
+    left: 27.5px;
+     top: 180px;
+}
+.right{
+    background-image: url(../img/Rectangle\ 2.png);
+    width: 923px;
+    height: 3800px;
+}
+.language{
+   margin-left: 100px;
+   padding-top: 12px;
+   width: 100px;
+   height: 50px;
+}
+.language .ru{
+    color: #99C911;
+}
+.language .slesh{
+    color: white;
+    text-decoration: none;
+}
+.language .kg {
+    color: white;
+}
+/* левая сторона */
+.shkola h1{ 
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 121.413px;
+color: black;
+margin-left: 90px;
+margin-top: 100px;
+}
+.shkola h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 28.6364px;
+color: black;
+margin-left: 100px;
+}
+.shkola img {
+    width: 139px;
+height: 67.16px;
+margin-left: 400px;
+margin-top: -80px;
+}
+.shkola h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+color: black;
+margin-left: 100px;
+margin-top: -10px;
+}
+.shkola button{
+border: 6px solid #99C911;
+box-sizing: border-box;
+border-radius: 11px;
+width: 250px;
+height: 55px;
+margin-top: 60px;
+margin-left: 160px;
+}
+.shkola button:hover{
+    background-color:#99C911 ;
+    border: 6px solid #99C911;
+}
+.shkola button a{
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+}
+.kurs{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.kurs h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+color: #000000;
+}
+.kurs h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15.6694px;
+color: #000000;
+}
+/* онлайн курсы */
+ .otvet{
+     margin-top: 50px;
+     padding-left: 50px;
+ }
+.cont {
+    display: block;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: #99C911;
+    
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .cont:hover input ~ .checkmark {
+   
+    box-shadow: 0px 0px 10px rgba(153, 201, 17, 0.8);
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .cont input:checked ~ .checkmark {
+    background: #99C911;
+box-shadow: 0px 0px 10px rgba(153, 201, 17, 0.8);
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .cont input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .cont .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+
+  }
+  .cont #text{
+      margin-left: 5%;
+  }
+  /* конец */
+
+
+
+
+
+  /* контакты */
+  .form-inline{
+    margin-top: 200px;
+    height: 176px;
+    background: #ECE9E9;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    width: 550px;
+    margin-left: -160px;
+}
+.text__input-text{
+    margin: 0 auto;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+}
+.text__input{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #484848;
+    width: 272px;
+    border: none;
+    border-bottom: 1px solid #99C911;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-color: #ECE9E9;
+}
+.input__name{
+    margin-bottom: 20px;
+}
+.input__type{
+    margin-top: 10px;
+    margin-left: 34px;
+    flex-direction: column;
+}
+.text__input::placeholder{
+    background-color: #ECE9E9;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #484848;
+}
+.form-check-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+.form-check-input{
+    border: 3px solid #99C911;
+    box-sizing: border-box;
+}
+.inputs{
+    display: flex;
+}
+.check{
+    margin-top: 20px;
+    margin-left: 30px   ;
+}
+.form-inline button{
+    margin-top: -50px;
+    margin-left: 380px;
+    border: 1px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 137.24px;
+   height: 19.42px;
+   font-size: 12px;
+   font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;   
+}
+.form-inline button:hover{
+    background-color: #99C911;
+    border:  1px solid #99C911 ;
+}
+.form-inline button a{
+    color: black;
+    text-decoration: none;
+}
+.button{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.button button{
+    border: 6px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 11px;
+    width: 330px;
+    height: 66px;
+}
+.button button:hover{
+    background-color:   #99C911;
+    border: 6px solid #99C911;
+}
+.button  button a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.vertical{
+    position: absolute;
+    top: 2350px;
+    left: 40px;
+    width: 97%;
+}
+.vertical img{
+    width: 100%;
+    height: 4 px;
+}
+/*  о нас */
+.about {
+    margin-top: 130px;
+}
+.about h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+color: black;
+margin-left: 100px;
+}
+.about img{
+    width: 150px;
+height: 60px;  
+margin-top: -5px;
+}
+.about p{
+    width: 451px;
+height: 507px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+text-align: justify;
+
+color: #000000;
+margin-left: 74px;
+line-height: 250.4%;
+margin-top: 50px;
+
+}
+/* конец */
+.reason h1{
+    width: 420px;
+    height: 62px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+text-align: left;
+color: #000000;
+margin-left: 100px;
+margin-top: -50px;
+
+}
+.reason h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+text-align: justify;
+color: #000000;
+margin-top: 70px;
+margin-left: 130px;
+
+}
+.reason h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+text-align: justify;
+color: #000000;
+margin-left: 180px;
+margin-top: 20px;
+}
+.reason h4{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+text-align: justify;
+color: #000000;
+margin-top: 20px;
+margin-left: 210px;
+}
+.reason span{
+    width: 29px;
+height: 44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 67.4%;
+/* or 32px */
+text-align: justify;
+color: #99C911;
+}
+.adress{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.adress h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 200.4%;
+color: black;
+margin-left: 50px;
+}
+.adress p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+margin-left: 50px;
+color: black;
+}
+#map{
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.smallline{
+    border: 2px solid #99C911;
+    width: 560px;
+    height: 2px;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+.email{
+display: flex;
+margin-left: 110px;
+}
+.contacts h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 30px;
+}
+.contacts p{
+ font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 120.4%;
+color: #000000;
+
+}
+.social h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 170.4%;
+text-align: center;
+color: #000000;
+text-transform: uppercase;
+margin-top: 25px;
+margin-left: 60px;
+}
+.instagram{
+    margin-left: 60px;
+}
+.social img{
+     margin-left: 50px;
+}
+/* правая сторона */
+.js{
+    width: 458px;
+height: 545px;
+border: 1px solid #97CA15;
+border-radius: 11px;
+margin-left: 250px;
+margin-top: 100px;
+}
+.js img{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.js h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+margin-top: 40px;
+margin-left: 80px;
+}
+.js p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 153.4%;
+text-align: justify;
+color: #FFFFFF;
+width: 355px;
+height: 209px;
+margin-left: 50px;
+margin-top: 20px;
+text-indent: 5em;
+}
+.js button{
+
+ background-color: black;
+ border: 1px solid #99C911;
+box-sizing: border-box;
+border-radius: 11px;
+width: 247px;
+height: 34px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+color: #FFFFFF;
+margin-left: 100px;
+padding-top:-100px;
+}
+.js button:hover{
+    background-color:#99C911 ;
+    border: 1px solid #99C911;
+}
+.js button a{
+    color: white;
+    text-decoration: none;
+}
+.js1{
+    height: 650px;
+    margin-top: 200px;
+}
+.price{
+    margin-top: -30px;
+    background-color:#99C911 ;  
+    width: 458px;
+   height: 29px;   
+}
+.price h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+
+margin-left: 130px;
+color: #FFFFFF;
+}
+.horizontal{
+    width: 5px;
+    height: 100px;
+    background-color: #99C911;
+    margin-left: 215px;
+}
+.dol{
+    margin-left: -130px;
+    margin-top: -130px;
+}
+.dol p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #FFFFFF;
+padding-left: 40px;
+margin-top: 10px;
+}
+.doll{
+    margin-left: 130px;
+    margin-top: -320px;
+}
+ .doll p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 60px;
+    margin-top: 9px;
+ }
+ .skidka{
+      margin-top: -190px;
+      margin-left: -20px;
+ }
+.skidka p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+color: rgba(255, 255, 255, 0.48);
+}
+.office{
+    margin-top: 195px;
+    margin-left: 100px;
+}
+.office h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+color: white;
+}
+.litle{
+    position: relative;
+    top: -100px;
+}
+.big{
+    margin-top: 110px;
+    margin-left: -100px;
+}
+.pravaya{
+    margin-top: 215px;
+    margin-left: 50px;
+}
+.pravaya h2{
+    color: white;
+}
+.pravaya h3{
+    color: white;
+}
+.pravaya h4{
+    color: white;
+}
+.information{     
+   margin-top: 150px;
+}
+.information h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 170.4%;
+text-align: center;
+color: #FFFFFF;
+width: 630px;
+height: 61px;
+margin-left: 130px;
+}
+.information input{
+    display: block;
+    border: none;
+    margin-top: 20px;
+    background-color: black;
+    border-bottom:  2px solid #99C911;
+    box-shadow: 0px 0px 0px rgba(153, 201, 17, 0.5);
+    width: 581px;
+    height: 50px;
+}
+.form{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#lfname{
+    height: 60px;
+}
+.information button{
+    margin-left: 360px;
+    margin-top: 50px;
+    border: 1px solid #99C911;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 250px;
+   height: 30px;
+}
+.information button:hover{
+    background-color: #99C911;
+}
+.information button a{
+    font-size: 50px;
+    font-family: Montserrat;
+     font-style: normal;
+     font-weight: normal;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.none{
+    color: black;
+    position: absolute;
+    z-index: -3;
+}
+#carouselExampleIndicators{
+   width: 0;
+   height: 0;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      body{
+         width: 100%;
+      }
+      .header{
+        background-color:black;
+        height: 55px;
+        width: 480px;
+    }
+      .left{
+          height: 800px;
+          width: 240px;
+      }
+      .right{
+          height: 800px;
+          width: 240px;
+          position: absolute;
+          left: 240px;
+      }
+      iframe{
+        width: 290px;
+        height: 197px;
+          position: absolute;
+         background-color: none;
+          left: -140px;
+          top: 420px;
+      }
+      .shkola h1{
+        font-size: 70px;
+        position: relative;
+        left: 33px;
+        z-index: 2;
+        font-weight: bold;
+        font-family: Montserrat;
+      }
+      .shkola span{
+          color: white;
+      }
+      .shkola h2{
+          position: relative;
+          z-index: 2;
+          font-size: 18px;
+          left:18px;
+          font-weight: bolder;
+        font-family: Montserrat;
+        
+      }
+     .shkola img{
+        display: none;
+     }
+     .big{
+         position: absolute;
+         width: 96.16px;
+         height: 56px;
+         z-index: 2;
+         top: -3123px;
+         left: 275px;
+     }
+
+     .shkola h3{
+         position: relative;
+         z-index: 2;
+         font-family: Montserrat;
+       font-style: normal;
+         font-weight: bold;
+            font-size: 15.2308px;
+            width: 250px;
+            left: 19px;
+            top: 18px;
+     }
+     .shkola button{
+        border: 2.36991px solid #99C911;
+        box-sizing: border-box;
+        border-radius: 4.34483px;
+        width: 180px;
+        height: 40.44px;
+        z-index: 2;
+        position: relative;
+        left: -17px;
+        top: -20px;
+     }
+     .shkola .button:hover{
+        border: 2.36991px solid #99C911;
+        width: 180px;
+        height: 40.44px;
+      background-color: none;
+     }
+     .shkola button a{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px; 
+     }
+      .line{
+          display: none;
+      }
+      .white{
+          background-image: url(../img/Group\ 51.png);
+          width: 480px;
+          height: 3750px;
+          position: absolute;
+          z-index: -1;
+          top: 800px;
+      }  
+      .adap{
+          background-color:#99C911 ;
+          width: 480px;
+          height: 3px;
+          z-index: 2;
+          position: absolute;
+          top: 800px;
+          left: -240px;
+      }
+      .a{
+          position: absolute;
+          top: 1620px;
+      }
+      .b{
+          position: absolute;
+          top: 2550px;
+      }
+      .smallline{
+          position: absolute;
+          width: 480px;
+          height: 3px;
+          left: -40px;
+          top: 3400px;
+      }
+      .none{
+          z-index: 3;
+          position: absolute;
+          color: white;
+          top: 680px;  
+          left: 20px;
+      }
+      .none h2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: #E5E5E5;
+
+      }
+      .none p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        color:#E5E5E5 ;
+        line-height: 10px;
+      }
+      .none h1{
+          position: absolute;
+          font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 170.4%;
+color: black;
+top: -2px;
+left:-150px;
+      }
+
+      .none img{
+          position: absolute;
+          left: -130px;
+          top: 30px;
+      }
+     .ins .face{
+          position: absolute;
+          left: -75px;
+      }
+      .kurs{
+        position: relative;
+        top: 340px; 
+     }
+     .kurs h1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25.1693px;
+        color: #000000;
+        width: 282.46px;
+        margin-left: 10px;  
+     }
+     .kurs h2{
+        width: 352px;
+        font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+color: #000000;
+margin-left: -20px;
+ }
+ .otvet .cont{
+     line-height: 10px;
+     width: 300px;
+     font-size: 18px;
+ }
+ .otvet  .checkmark{
+     width: 20px;
+     height: 20px;
+     line-height: 10px;
+     margin-top: -5px;
+ }
+.js{
+    position: absolute;
+    left: -400px;
+    width: 298px;
+   height: 354.61px;
+   top: 1100px;
+   background: rgba(0, 0, 0, 0.9);
+   border: 0.650655px solid #97CD5C;
+   border-radius: 7.15721px;
+}
+.js img{
+    width: 65px;
+height: 65px;
+margin-top: 30px;
+margin-left: 125px;
+}
+.js h1{
+    font-style: normal;
+   font-weight: bold;
+    font-size: 15.6157px;
+    color: #EFEFEF;
+    margin-left: 70px;
+}
+.js p{
+    font-family: Montserrat;
+font-style: normal;
+font-size: 9.75983px;
+text-align: justify;
+width: 230.98px;
+margin-left: 40px;
+margin-top: -5px;
+}
+.js button{
+    position: relative;
+    top: -100px;
+   left: -30px;
+   width: 160.71px;
+height: 22.12px;
+}
+.js button a {
+    position: absolute;
+     width: 97.6px;;
+    font-size: 10px;
+    top: 3px;
+    left: 30px;
+}
+.js1{
+    height: 400px;
+    position: absolute;
+    top: 1800px;
+}
+.js1 .price{
+    width: 297px;
+   height: 20px;
+   margin-top: -120px;  
+}
+.js1 .price h1{
+    font-size: 13px;
+    position: relative;
+    top: -5px;
+}
+.js1 .horizontal{
+       height: 60px;
+       width: 3px;
+       margin-left: 146px;
+}
+.dol img{
+    width: 60px;
+    height: 30px;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.dol p{
+    font-size: 10px;
+    margin-top: 3px;
+    margin-left: 60px;
+}
+.doll img{
+    width: 60px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: 63px;
+}
+.doll p{
+    font-size: 10px;
+    margin-left: -55px;
+    margin-top: 3px;
+}
+.skidka p{
+    font-size: 8px;
+    margin-top: -205px;
+}
+.button button{
+    width: 220px;
+     height: 40px; 
+     margin-left: -20px;         
+}
+
+.button button a{
+    font-size: 13px;
+}
+.button{
+    position: relative;
+    top: 1110px;
+}
+ .about{
+     position: relative;
+     top: 1100px;
+     left: -7px;
+ }
+ .about h1{
+       font-size: 28px;
+       padding-left: 110px;
+       width: 200px;
+      
+      
+ }
+ .about p{
+     margin-top: 15px;
+     font-size: 11px;
+     line-height: 229.9%;
+     width: 319px;
+     text-align: justify;
+    text-indent: 0,5em;
+    margin-left: 95px;
+ }
+ .about img{
+    width: 76px;
+    height: 38px;
+ }
+ .office{
+     position: absolute;
+     top: 3000px;
+     left: -200px;
+ }
+ .office h1{
+     color: black;
+     position: absolute;
+     z-index: 2;
+     top: -200px;
+     left: 20px;
+     font-size: 28px;
+     width: 200px;
+     
+ }
+ .office img{
+     display: none;
+ }
+ #carouselExampleIndicators{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 3130px;
+    left: 90px;
+ }
+ .reason{
+    position: relative;
+    top: 1400px;
+    left: -70px;
+}
+.reason h1{
+    font-size: 27px;
+    margin-left: 150px;
+    margin-top: 17px;
+    width: 350px;
+    
+}
+.reason span{
+    font-size: 30px;
+}
+.reason h2{
+    font-size: 13px;
+    width: 250px;
+    text-align: justify;
+    margin-left: 150px;
+}
+.reason h3{
+    font-size: 13px;
+    width: 250px;
+    margin-left: 150px;
+}
+.reason h4{
+    font-size: 13px;
+    width: 250px;
+    margin-left: 150px;
+}
+.pravaya{
+    position: relative;
+    top: 3515px;
+    font-size: 400px;
+    left: -362px;
+}
+.pravaya h2{
+     color: black;
+     width: 300px;
+}
+.pravaya h3{
+    color: black;
+    width: 350px;
+}
+.pravaya h4{
+    color: black;
+    width: 320px;
+}
+.information{
+    position: absolute;
+    top: 3800px;
+    left: -500px;
+    z-index: 2;
+}
+.information h1{
+    color: black;
+    font-size: 18px;
+    width: 360px;
+    margin-left: 325px;
+}
+.form1 {
+    display: none;
+}
+.form input{
+  background: none;
+  width: 300px;
+  margin-left: 150px;
+}
+.information button{
+    background: none;
+    width: 150px;
+    margin-left: 420px;
+}
+.information button a{
+   color: black;
+   font-size: 15px;
+}
+.adress{
+    position: relative;
+    top: 2150px;  
+    left: -30px; 
+}
+.adress h1{
+    font-size: 28px;
+    width: 200px;
+}
+.adress p{
+    font-size: 15px;
+    width: 250px;
+    line-height: 5px;
+}
+#map{
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+}
+.d{
+    position: absolute;
+    top: 4900px;
+}
+.email{
+    position: relative;
+    top: 2250px;
+    left: -40px;
+}
+.contacts h1{
+    font-size: 15px;
+}
+.contacts p{
+    font-size: 13px;
+}
+.social{
+    margin-left: -60px;
+}
+.social h1{
+    font-size: 14px;
+    width: 200px;
+}
+ .nurs{
+     position: relative;
+     top: 680px;
+ } 
+.vertical{
+    display: none;
+}
+.c{
+    position: absolute;
+    top: 4490px;
+}
+.white1{
+    margin-top: 700px;
+}
+   .nav1{
+       display: none;
+   }
+
+header input + label{
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    height: 20px;
+    width: 35px;
+    z-index: 5;
+
+}
+header input + label span{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    margin-top: -1px;
+    left: 0;
+    display: block;
+    background-color: white;
+    transition: .5;
+}
+header input + label span:first-child{
+    top:3px
+}
+header input + label span:last-child{
+    top:16px;
+}
+header label:hover{
+    cursor:pointer
+}
+header input:checked + label span{
+    opacity: 0;
+    top:50%
+}
+header input:checked + label span:first-child{
+    opacity: 1;
+    transform: rotate(-450deg);
+}
+header input:checked + label span:last-child{
+    opacity: 1;
+    transform: rotate(-450deg);
+}
+header input ~nav{
+    background-color:black;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    transition: .5s;
+    transition-delay: .5s;
+    overflow: hidden;
+}
+header input ~nav > ul{
+    text-align: center;
+    list-style-type: none;
+    position: absolute;
+    top: 355;
+    left: 20%;
+    right: 20%;
+}
+header input ~ nav >ul > li{
+    opacity: 0;
+    transition: .5s;
+    transition-delay: 0s;
+   
+}
+header input ~ nav > ul >li > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 30px;
+}
+header input:checked ~ nav {
+    height: 100%;
+    transition-delay: 0s;
+}
+header input:checked ~ nav > ul >li{
+    opacity: 1;
+    transition-delay: .5s;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
